@@ -1,2 +1,2 @@
 # FloatExpress
-浮点数的二进制位级表示方式。
+简书文章[理解浮点数](http://www.jianshu.com/p/af35eea6790f)

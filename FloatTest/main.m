@@ -19,7 +19,7 @@ int main(int argc, const char * argv[]) {
 void floatToBinary(float f) {
     char *p = (char *)&f; // 强转为含有 4 个 char 类型的数组
     for (int i = 3; i >= 0; --i) { // 小端模式存储
-        unsigned int mask = 0x80;
+        uint8 mask = 0x80;
         char oneBit = *(p + i);
         for (; mask; mask >>= 1) {
             if (mask & oneBit) {
